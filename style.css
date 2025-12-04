@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./Wave.svg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+    font-size: 70px;
+    
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+font-family: "Ubuntu", sans-serif;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em;
+    gap: 40px;
+   
+    
+}
+input{
+    width: 350px;
+    height: 50px;
+    border-radius: 13px;
+    padding: 5px;
+    border: 2px solid white;
+    color: white;
+    background-color: rgb(5, 51, 78);
+    text-align: center;
+    font-size: 25px;
+}
+button{
+    width: 300px;
+    height: 50px;
+    border-radius: 13px;
+    border: 2px solid white;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(5, 51, 78);
+    cursor: pointer;
+}
+input:hover{
+    box-shadow:
+  0 0 18px rgba(180, 220, 255, 0.9),  
+  0 0 40px rgba(30, 100, 200, 0.7),    
+  0 0 70px rgba(0, 0, 60, 0.6);
+}
+button:hover{
+     box-shadow:
+  0 0 18px rgba(180, 220, 255, 0.9),  
+  0 0 40px rgba(30, 100, 200, 0.7),    
+  0 0 70px rgba(0, 0, 60, 0.6);
+}
+p{
+    background-color: rgb(5, 51, 78);
+    width: 350px;
+    height: 40px;
+    border-radius: 13px;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    border: 2px solid white;
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+font-family: "Ubuntu", sans-serif;
+}
+::placeholder{
+    color: rgb(213, 231, 238);
+}
+
+
+
+
