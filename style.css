@@ -5,7 +5,6 @@
 
 body{
     background-image: url(./Wave.svg);
-    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
    
@@ -85,6 +84,7 @@ font-family: "Ubuntu", sans-serif;
 ::placeholder{
     color: rgb(213, 231, 238);
 }
+
 
 
 
